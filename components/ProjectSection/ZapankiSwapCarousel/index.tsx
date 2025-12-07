@@ -1,10 +1,11 @@
+import Image from "next/image";
+
 import {
   Carousel,
   CarouselContent,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
-import Image from "next/image";
+} from "../../ui/carousel";
 import ZapankiIntro from "./ZapankiIntro";
 import ZapankiISR from "./ZapankiISR";
 import ZapankiMotion from "./ZapankiMotion";

@@ -1,6 +1,6 @@
-import { CarouselItem } from "@/components/ui/carousel";
 import { motion } from "motion/react";
 import Image from "next/image";
+import { CarouselItem } from "../ui/carousel";
 
 const AboutStack = () => {
   return (

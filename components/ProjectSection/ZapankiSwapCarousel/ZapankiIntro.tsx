@@ -1,5 +1,5 @@
-import { CarouselItem } from "@/components/ui/carousel";
 import { motion } from "motion/react";
+import { CarouselItem } from "../../ui/carousel";
 
 const ZapankiIntro = () => {
   return (

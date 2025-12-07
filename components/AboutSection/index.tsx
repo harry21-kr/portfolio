@@ -5,7 +5,7 @@ import {
   CarouselContent,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "../ui/carousel";
 import AboutMe from "./AboutMe";
 import AboutStack from "./AboutStack";
 

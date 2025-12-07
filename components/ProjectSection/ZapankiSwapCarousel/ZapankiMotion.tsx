@@ -1,11 +1,11 @@
-import { CarouselItem } from "@/components/ui/carousel";
 import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
+import { CarouselItem } from "../../ui/carousel";
 
-const ZapankiRTK = () => {
+const ZapankiMotion = () => {
   return (
-    <CarouselItem className="justify-evenly gap-4">
+    <CarouselItem className="justify-evenly">
       <motion.h2
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
@@ -13,7 +13,7 @@ const ZapankiRTK = () => {
         transition={{ delay: 0.5 }}
         className="font-semibold text-2xl"
       >
-        Redux Toolkit을 사용한 전역 변수 관리
+        Framer Motion을 이용한 게임 애니메이션 제작
       </motion.h2>
       <motion.div
         initial={{ translateX: -10, opacity: 0 }}
@@ -21,9 +21,7 @@ const ZapankiRTK = () => {
         viewport={{ once: true }}
         transition={{ delay: 1 }}
         className="text-lg flex flex-col items-center gap-1"
-      >
-        <p>RTK의</p>
-      </motion.div>
+      ></motion.div>
       <motion.button
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
@@ -44,4 +42,4 @@ const ZapankiRTK = () => {
   );
 };
 
-export default ZapankiRTK;
+export default ZapankiMotion;

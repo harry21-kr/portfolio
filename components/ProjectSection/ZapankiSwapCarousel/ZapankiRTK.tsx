@@ -1,11 +1,11 @@
-import { CarouselItem } from "@/components/ui/carousel";
 import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
+import { CarouselItem } from "../../ui/carousel";
 
-const ZapankiISR = () => {
+const ZapankiRTK = () => {
   return (
-    <CarouselItem className="justify-evenly">
+    <CarouselItem className="justify-evenly gap-4">
       <motion.h2
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
@@ -13,7 +13,7 @@ const ZapankiISR = () => {
         transition={{ delay: 0.5 }}
         className="font-semibold text-2xl"
       >
-        ISR을 통한 빠른 랜딩페이지 로딩, SEO 최적화
+        Redux Toolkit을 사용한 전역 변수 관리
       </motion.h2>
       <motion.div
         initial={{ translateX: -10, opacity: 0 }}
@@ -22,14 +22,7 @@ const ZapankiISR = () => {
         transition={{ delay: 1 }}
         className="text-lg flex flex-col items-center gap-1"
       >
-        <p>랜딩 페이지에는 서버에서 가져와야하는 데이터와 함께</p>
-        <p>웹사이트의 소개 등 중요한 정보들도 포함되어 있었습니다.</p>
-        <p>CSR은 초기 로딩 속도와 SEO에 불리하여 사용하지 않았고,</p>
-        <p>SSG는 데이터에 실시간성이 부여되지 않아 사용하지 않았으며,</p>
-        <p>
-          SSR은 ISR 대비 LCP, FCP에 불리한 방면이 있어 ISR을 사용하게
-          되었습니다.
-        </p>
+        <p>RTK의</p>
       </motion.div>
       <motion.button
         initial={{ translateX: -10, opacity: 0 }}
@@ -51,4 +44,4 @@ const ZapankiISR = () => {
   );
 };
 
-export default ZapankiISR;
+export default ZapankiRTK;
