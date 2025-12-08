@@ -22,7 +22,10 @@ const ZapankiRTK = () => {
         transition={{ delay: 1 }}
         className="text-lg flex flex-col items-center gap-1"
       >
-        <p>RTK의</p>
+        <p>여러 페이지에서 동일하게 사용되는 변수들을 관리하기 위해</p>
+        <p>RTK를 사용하였고, createSelector와 useMemo를 사용해</p>
+        <p>하나의 selector로 여러 전역 변수를 가져옴과 동시에</p>
+        <p>캐싱을 진행해 메모리를 효과적으로 사용하였습니다.</p>
       </motion.div>
       <motion.button
         initial={{ translateX: -10, opacity: 0 }}
