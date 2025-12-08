@@ -27,7 +27,7 @@ const ZapankiSocket = () => {
           이를 위해 서버와 WebSocket을 통한 실시간 통신이 필요하다고 판단했으며,
         </p>
         <p>Socket.io 라이브러리를 활용해 이 기능을 구현했습니다.</p>
-        <p>또한 React의 useCallback과 useEffect 훅을 사용해</p>
+        <p>또한 React의 useCallback과 useEffect를 사용해</p>
         <p>상태 관리와 이벤트 처리 로직을 최적화하였습니다.</p>
       </motion.div>
       <motion.button
