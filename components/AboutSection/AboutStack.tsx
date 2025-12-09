@@ -9,7 +9,7 @@ const AboutStack = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="font-bold text-[clamp(1.5rem,5vw,1.875rem)] pb-4"
+        className="font-bold text-[clamp(1.25rem,5vw,1.875rem)] pb-4"
       >
         실무에 최적화되어있는 기술 스택
       </motion.h2>
