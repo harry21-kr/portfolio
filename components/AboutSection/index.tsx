@@ -11,8 +11,10 @@ import AboutStack from "./AboutStack";
 
 const AboutSection = () => {
   return (
-    <section className="flex flex-col items-center py-12">
-      <h1 className="text-3xl font-semibold text-slate-500 pb-4">보유 역량</h1>
+    <section className="h-screen flex flex-col items-center justify-center">
+      <h1 className="text-[clamp(1.5rem,5vw,1.875rem)] font-semibold text-slate-500">
+        보유 역량
+      </h1>
       <Carousel>
         <CarouselContent>
           <AboutStack />

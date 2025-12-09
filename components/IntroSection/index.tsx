@@ -14,7 +14,7 @@ const IntroSection = () => {
       <motion.div
         animate={{ opacity: [0, 1] }}
         transition={{ delay: 1 }}
-        className="flex flex-col text-[clamp(1rem,2.5vw,1.25rem)] break-keep sm:gap-2 sm:items-end"
+        className="flex flex-col text-[clamp(1rem,2.5vw,1.25rem)] sm:gap-2 sm:items-end"
       >
         <p>
           <span className="font-semibold">무언가</span>가 없다면{" "}
