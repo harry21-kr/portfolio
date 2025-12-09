@@ -11,7 +11,7 @@ import AboutStack from "./AboutStack";
 
 const AboutSection = () => {
   return (
-    <section className="h-screen flex flex-col items-center justify-center">
+    <section className="flex flex-col items-center">
       <h1 className="text-[clamp(1.5rem,5vw,1.875rem)] font-semibold text-slate-500">
         보유 역량
       </h1>
